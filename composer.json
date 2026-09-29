@@ -1,0 +1,13 @@
+{
+  "name": "banyumas/surat-app",
+  "description": "Aplikasi Surat Masuk dan Generator Nota Dinas Sekretariat Daerah Kab. Banyumas",
+  "require": {
+    "dompdf/dompdf": "^3.0",
+    "phpoffice/phpword": "^1.4"
+  },
+  "config": {
+    "audit": {
+      "block-insecure": false
+    }
+  }
+}
